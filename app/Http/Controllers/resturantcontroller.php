@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class Resturantcontroller extends Controller
 {
-    //
+    
     public function __construct()
     {
         $this->middleware('auth');
